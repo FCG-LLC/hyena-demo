@@ -1,0 +1,15 @@
+[package]
+name = "hyena-demo"
+version = "0.1.0"
+authors = ["Jacek Całusiński <forger@forger.pl>"]
+
+[dependencies]
+num-traits = "0.2.4"
+failure = "0.1.1"
+indicatif = "0.9.0"
+term = "0.5.1"
+pretty_toa = "1.0.0"
+prettytable-rs = "0.7.0"
+syntect = "2.0.1"
+hyena-common = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git", branch = "bloom_in_api"}
+hyena-engine = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git", branch = "bloom_in_api"}
