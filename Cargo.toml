@@ -11,5 +11,5 @@ term = "0.5.1"
 pretty_toa = "1.0.0"
 prettytable-rs = "0.7.0"
 syntect = "2.0.1"
-hyena-common = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git", branch = "bloom_in_api"}
-hyena-engine = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git", branch = "bloom_in_api"}
+hyena-common = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git"}
+hyena-engine = { git = "ssh://git@gitlab.cs.int/hyena/hyena.git", features = ["debug"]}
